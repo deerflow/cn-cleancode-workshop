@@ -12,7 +12,6 @@ class Homologation extends Command
     {
         if (true !== app()->environment('local')) {
             $this->output->error('Homologation only in dev env');
-
             return;
         }
 

@@ -81,4 +81,9 @@ class User
     {
         return true;
     }
+
+    public static function all(): array
+    {
+        return [];
+    }
 }
